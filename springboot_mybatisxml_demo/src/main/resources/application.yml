@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.20.11:3306/accp_notify_dev
+    username: accp_notify
+    password: accp_notify
+    driver-class-name: com.mysql.jdbc.Driver
+mybatis:
+  typeAliasesPackage: com.example.springboot_mybatisxml_demo.entity
+  mapperLocations: classpath:mapper/*.xml
